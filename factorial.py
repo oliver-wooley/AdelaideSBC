@@ -14,6 +14,7 @@ def fact(n):
     if math.floor(n) !=n : #needs to be an integer 
         raise ValueError('n must be integer')
     
+    #this counts from 1 up to n whilst the traditional way we think of factors is the opposite
     result =1  
     factor  =2
     while factor <= n:
